@@ -9,29 +9,31 @@
 
     }
     .right-img {
-        width: 100%; 
+        width: 100%;
+        margin-top: -30px;
 }
-
-    
+.reservation-form{
+    text-align: center;
+}  
+.reservation-form .btn-submit{
+    width: 60%;
+}
     .banner {
-        
-        flex-direction: column-reverse;
         text-align: center;
-
     }
     .sticker {
-        height: 70px;
-        width: 70px;
-        padding: 4px;
-        top: 54%;
+        height: 100px;
+        width: 100px;
+        padding: 8px;
+        top: 52%;
         left: 21%;
     }
    
     .sticker-text {
      padding: 0;
-     letter-spacing: 0; 
+     letter-spacing: 0;
      line-height: 20px;
-      padding-top: 6px; 
+     padding-top: 17px;
     }
     .sticker-text p {
        font-size: 13px;
@@ -41,6 +43,7 @@
 }
 .banner_left {
    
+margin-top: 30px;
 }
 .banner_left h3 {
     font-size: 13px;
