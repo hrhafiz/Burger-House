@@ -121,6 +121,9 @@ footer h2 {
 }
 
 @media(min-width:0) and (max-width:575px){
+    .footer h6{
+        font-size: 16px;
+    }
     .owl-dots{
         text-align: center;
         padding-top: 10px;
@@ -245,7 +248,7 @@ footer h2 {
      padding-bottom: 0px !important;
 }
 footer img {
-    padding-bottom: 20px;
+    width: 75%;
 }
 footer h2 {
     font-size: 17px;
@@ -292,7 +295,7 @@ footer h2 {
     }
     footer img {
         margin-top: -50px;
-        width: 80%;
+        width: 70%;
     }
     .copywright{
         padding-top: 10px !important;
