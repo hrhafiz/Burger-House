@@ -431,7 +431,7 @@ font-family: 'Montserrat', sans-serif;
 /* footer part start  */
 footer{
     background: url(../images/footer_bg.png);
-    background-position: center fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
