@@ -26,7 +26,7 @@ header{
     font-size: 20px;
     letter-spacing: 3px;
     font-family: 'Bebas Neue', cursive;
-    font-weight: 600;
+    font-weight: 800;
 }
 .nav-item{
       
@@ -365,10 +365,12 @@ box-shadow: rgb(187 187 187 / 73%) 9px 9px 20px 1px;
 }
 /* resevation part start  */
 .reservation{
-    background-image: url(../images/reservation-bg.png);
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-image: url(../images/bottle-small-burger.png), url(../images/bottol.png), url(../images/botlle_burger.png);
+    /* background-position: top left, bottom left, bottom right; */
+    background-repeat: no-repeat no-repeat;
+    background-position-y: top, 200px, 107%;
+    background-position-x: left, 20%, right;
+    background-size: 24%, 21%, 19%;
 }
 .reservation h4{
     
